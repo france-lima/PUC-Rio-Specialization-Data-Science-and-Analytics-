@@ -1,5 +1,11 @@
 <h2 style="color: #333366;">Postgraduate Specialization in Data Science and Analytics 2022 | Pontifical Catholic University of Rio de Janeiro (PUC - RIO)</h2>
 
+<p>
+    This repository contains projects carried out during postgraduate studies in 
+    <a href="https://especializacao.ccec.puc-rio.br/especializacao/ciencia-de-dados-e-analytics" target="_blank">Data Sciences and Analytics</a>.
+</p>
+
+
 <p><strong>About the Program:</strong></p>
 <p>During the program, I developed three Minimum Viable Products (MVPs), including:</p>
 <ol>
@@ -8,6 +14,8 @@
     <li>A comprehensive ETL data pipeline to streamline data consumption processes for a B2C company, improving data management and accessibility for informed business strategies.</li>
 </ol>
 <p>This experience has equipped me with a robust foundation for data-driven decision-making in analytics roles.</p>
+
+Each of the projects carried out can be found [here](./Projects/).
 
 ##
 <p><strong>Skills/Tools:</strong></p>
