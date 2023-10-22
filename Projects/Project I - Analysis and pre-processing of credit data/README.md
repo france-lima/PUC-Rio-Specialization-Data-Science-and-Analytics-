@@ -73,12 +73,12 @@ Portanto, também fizemos o devido tratamento desses dados convertendo as variá
 * Ativos problemáticos por Porte
 Os ativos probemáticos aparecem com maior concentração na faixa de renda de Mais de 1 a 2 salários mínimos.
 
-<img src="porte.png">
+<img src="images/porte.png">
 
 * Distribução dos Ativos problemáticos por Modalidade ao longo do tempo
 O crédito habitacional aparece como a modalidade com maior peso nos ativos problemáticos durante todo o período analisado. 
 
-<img src="tempo_modalidade.png">
+<img src="images/tempo_modalidade.png">
 
 * Outras vizualizações interessantes
 * 
