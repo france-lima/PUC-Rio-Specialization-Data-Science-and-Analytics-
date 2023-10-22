@@ -59,15 +59,15 @@ The development of the analysis and preprocessing is presented in a simple and c
 * Primeiras linhas do dataset
 Nas primeiras linhas, notamos algumas colunas com valores faltantes e outras que consideramos não possuírem valor direto para o objetivo de nossa análise. Nesse sentido, na etapa de pré-processamento, tratamos devidamente os valores faltantes e reduzimos a dimensionalidade do dataframe excluindo as colunas desnecessárias para o nosso projeto. 
 
-<img src="primeiras-linas1.png">
+<img src="images/primeiras-linas1.png">
 
-<img src="primeiras_linhas2).png">
+<img src="images/primeiras_linhas2.png">
 
 * Informações dos atributos do dataset
 Aqui vemos que todos os atributos são do tipo 'object', indicando que possivelmente os dados foram armazenados como 'string'. Isso dificulta a realização de análises e operações matemáticas de dados das variáveis numéricas, como a realização de resumos estatíticos que nos permitam estabelecer informações importantes, como média, mediana e desvio parão. 
 
 Portanto, também fizemos o devido tratamento desses dados convertendo as variáveis categóricas e numéricas de acordo com seus devidos tipos.
-<img src="atributos.png">
+<img src="images/atributos.png">
 
 # Visualização 
 * Ativos problemáticos por Porte
@@ -81,11 +81,12 @@ O crédito habitacional aparece como a modalidade com maior peso nos ativos prob
 <img src="tempo_modalidade.png">
 
 * Outras vizualizações interessantes
-<img src="estado.png">
+* 
+<img src="images/estado.png">
 
-<img src="ocupacao.png">
+<img src="images/ocupacao.png">
 
-<img src="indexador.png">
+<img src="images/indexador.png">
 
 # Conclusão
 A análise do setor bancário e de crédito é frequentemente dificultada pela confidencialidade dos dados relevantes, o que muitas vezes leva à construção de modelos com amostras muito antigas ou com muitas variáveis desidentificadas. Optamos por analisar um conjunto de dados reais de operações de crédito criado pelo Banco Central do Brasil, pois acreditamos que o acesso a dados atualizados e bem documentados é valioso. Devido ao grande volume de dados, concentramos nossa análise no tipo de cliente Pessoa Física (PF) e no Segmento (SR) do tipo S1, que corresponde ao segmento bancário de maior porte. Essa abordagem foi suficiente para construir nossa análise e confirmar nossas hipóteses iniciais. Em resumo, confirmanmos nossa hipótese de que, com base nos dados do Banco Central, a maior parte dos ativos problemáticos em 2022 era composta por indivíduos com renda entre 1 e 2 salários mínimos, com a maior incidência na modalidade de crédito habitacional. Isso pode ser um efeito da pandemia e do aumento da inflação do período, que afetou o mercado imobiliário. Também observamos um padrão regional e sazonal nas ocorrências de ativos problemáticos, com os índices mais altos no último trimestre do ano, especialmente em dezembro. Além disso, os ativos problemáticos estão concentrados na Região Sudeste, principalmente nos Estados de São Paulo, Rio de Janeiro e Minas Gerais, que são considerados alguns dos mais ricos do país e também os mais populosos. 
