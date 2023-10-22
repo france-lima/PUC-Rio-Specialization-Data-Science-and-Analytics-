@@ -70,15 +70,15 @@ rating: Represents the rating given by customers to the product, on a scale from
 # Análise dos dados e Pré processamento
 
 <figure>
-  <img src="positives_feedbacks.png" alt="Feedbacks positivos">
+  <img src="images2/positives_feedbacks.png" alt="Feedbacks positivos">
 </figure>
 
 <figure>
-  <img src="negatives_feedbacks.png" alt="Feedbacks negativos">
+  <img src="images2/negatives_feedbacks.png" alt="Feedbacks negativos">
 </figure>
 
 <figure>
-  <img src="gráfico.png" alt="Distribuição das avaliações negativas(0) e positivas(1)">
+  <img src="images2/gráfico.png" alt="Distribuição das avaliações negativas(0) e positivas(1)">
 </figure>
 
 Nesta análise exploratória do conjunto de dados, identificamos que todas as colunas estão preenchidas, não havendo valores ausentes, o que é positivo para a construção do modelo. As colunas "rating" e "feedback" são numéricas e representam a classificação dada pelos clientes e o feedback positivo ou negativo, respectivamente. As colunas "date", "variation" e "verified_reviews" contêm informações textuais relevantes para análise, como data da avaliação, variação específica do produto e as próprias avaliações verificadas dos clientes.
@@ -88,26 +88,26 @@ Observamos que a quantidade de feedbacks positivos é maior do que os feedbacks 
 # Limpeza e tranformação dos dados
 
 <figure>
-  <img src="tabela.png" alt="Primeiras linhas do dataframe após a limpeza e transformação dos dados">
+  <img src="images2/tabela.png" alt="Primeiras linhas do dataframe após a limpeza e transformação dos dados">
 </figure>
 
 Nesta etapa de pré-processamento dos dados, foram tomadas várias medidas para preparar o conjunto de dados para a análise. Primeiro, as colunas "rating" e "date" foram removidas do DataFrame, pois não seriam utilizadas na análise. Em seguida, a coluna "variation" foi codificada utilizando one-hot encoding, convertendo as diferentes variações dos dispositivos em colunas binárias para que pudessem ser utilizadas no modelo de aprendizado. Além disso, foi aplicado o CountVectorizer na coluna "verified_reviews", convertendo as avaliações dos clientes em vetores de contagem de palavras, permitindo sua representação numérica. Por fim, os dataframes resultantes foram concatenados ao longo do eixo das colunas, combinando as informações de avaliações dos clientes com as informações codificadas. O conjunto de dados foi então dividido em conjuntos de treino e teste usando a função train_test_split(), possibilitando avaliar o desempenho do modelo em dados não vistos durante o treinamento. Essas etapas de pré-processamento são essenciais para garantir que os dados estejam em um formato adequado para o modelo de aprendizado de máquina e para obter resultados confiáveis e significativos na análise.
 # Treinamento e avaliação do modelo
 
 <figure>
-  <img src="summary.png" alt="Summary do modelo sequencial da rede neural">
+  <img src="images2/summary.png" alt="Summary do modelo sequencial da rede neural">
 </figure>
 
 <figure>
-  <img src="hist.png" alt="Treinamento do modelo">
+  <img src="images2/hist.png" alt="Treinamento do modelo">
 </figure
 
 <figure>
-  <img src= "matriz_treino.png" alt="Matriz de confusão da base de treino">
+  <img src= "images2/matriz_treino.png" alt="Matriz de confusão da base de treino">
 </figure>
 
 <figure>
-  <img src= "matriz_teste.png" alt="Matriz de confusão da base de teste">
+  <img src= "images2/matriz_teste.png" alt="Matriz de confusão da base de teste">
 </figure>
 
 O modelo apresentou um bom desempenho tanto na base de treino quanto na base de teste. Na base de treino, teve um alto número de verdadeiros positivos e verdadeiros negativos, indicando que acertou a grande maioria das previsões. Entretanto, houve alguns falsos negativos e falsos positivos, sugerindo um possível overfitting, onde o modelo pode estar se ajustando muito bem aos dados de treino, mas não generalizando tão bem para dados novos.
