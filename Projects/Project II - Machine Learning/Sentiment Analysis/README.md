@@ -1,5 +1,5 @@
 
-# Processamento de Linguagem Natural (PLN)
+# Análise de Sentimentos com Processamento de Linguagem Natural (PLN)
 # Sumário
 * [Descrição do projeto](#descrição-do-projeto)
 * [Project description](#project-description)
